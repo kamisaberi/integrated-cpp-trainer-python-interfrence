@@ -91,6 +91,9 @@ int main() {
     }
 
 
+    // ===================================================================
+    // NEW SECTION: launch the Python inference script to test
+    // ===================================================================
 
     // We assume 'python3' is in the system's PATH and 'converter.py' is in the same directory.
     python_command = "./cpp_venv/bin/python3 inference.py";
